@@ -3,8 +3,9 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: black;
 	font-size: 15px;
-	line-height: 40px;
-	font-weight: bold;
+	line-height: 20px;
+	/*font-weight: bold;*/
+	
 }
 
 h1, h2, h3 {
@@ -29,13 +30,16 @@ a:hover {
 }
 
 
-img {
+#lotus {
 	height: 200px;
 }
 
+.img-size {
+	width: 50px;
+}
 
-table, td, th {
-	border : solid 1px black;
+td, th {
+	/*border : solid 1px black;*/
 	padding: 10px;
 }
 
@@ -96,6 +100,11 @@ table, td, th {
 .btn-red {
 	background-color: #DD5454;
 	color: white;
+}
+
+.title-bold{ 
+	font-weight: bold;
+	color: rgb(140, 140, 140);
 }
 
 .myButton {
