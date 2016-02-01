@@ -1,5 +1,5 @@
 body{
-	background-color: #D3D3D3;
+	background-color: #EDEFF0;
 	font-family: 'Open Sans', sans-serif;
 	color: black;
 	font-size: 15px;
@@ -10,7 +10,6 @@ body{
 h1, h2, h3 {
 	font-family: 'Montserrat', sans-serif;
 	color: #0080FF;
-	text-align: center;
 }
 
 a {
@@ -26,11 +25,6 @@ a:hover {
 
 img {
 	height: 200px;
-	display:block;
-	width:auto;
-	margin-left:auto;
-	margin-right:auto
-
 }
 
 
@@ -40,18 +34,56 @@ table, td, th {
 }
 
 #container {
-width: 500px;
-margin: 0 auto;
+	width: 70%;
+	margin: 0 auto;
 }
 
-.presentation, .reseaux, .passion, .bas{
-	border: solid 1px black;
+.text-center {
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-center {
+	width:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.card-white {
+	border: solid 1px lightgrey;
 	background-color: white;
 	padding: 10px;
 }
 
+.list-inline > li {
+display: inline-block;
+width: 90px;
+padding-left: 0px;
+list-style: none;
 
+}
 
+#navbar-left {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 10%;
+	height: 100%;
+	background-color: #384047;
+
+}
+
+.fa-grey {
+	color: #778087;
+	font-size: 25px;
+	line-height: 3;
+	list-style: none;
+
+} 
 
 
 
